@@ -1,0 +1,244 @@
+.div2 {
+    background-color: #20560D;
+    position: relative;
+}
+
+.web {
+    background-color: white;
+    height: 150px;
+    width: 4px;
+    margin: auto;
+}
+
+.butt {
+    background-color: black;
+    width: 125px;
+    height: 135px;
+    border-radius: 180px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 120px;
+}
+
+.body {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 145px;
+}
+
+.head {
+    background-color: black;
+    width: 75px;
+    height: 70px;
+    border-radius: 180px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 160px;
+}
+
+.leg-container1 {
+    /* border: 1px solid red; */
+    height: 42%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leg-container2 {
+    /* border: 1px solid white; */
+    height: 22%;
+    width: 100%;
+    position: absolute;
+    top: 42%;
+}
+
+.leg-container3 {
+    /* border: 1px solid yellow; */
+    height: 36%;
+    width: 100%;
+    position: absolute;
+    top: 64%;
+}
+
+.middle-legs-container {
+    /* border: .5px solid salmon; */
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-back-legs {
+    /* border: .5px solid salmon; */
+}
+
+.middle-middle-legs1 {
+    /* border: .5px solid yellow; */
+}
+
+.middle-middle-legs2 {
+    /* border: .5px solid red; */
+}
+
+.middle-front-legs {
+    /* border: .5px solid rgb(42, 37, 210); */
+}
+
+.back-body-leg {
+    background-color: black;
+    width: 75px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bb-leg1 {
+    left: 75px;
+    bottom: 15px;
+    transform: rotate(47deg);
+}
+
+.bb-leg2 {
+    right: 75px;
+    bottom: 15px;
+    transform: rotate(-47deg);
+}
+
+.back-tip-leg {
+    background-color: black;
+    width: 110px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bt-leg1 {
+    top: 60px;
+    left: 66px;
+    transform: rotate(-80deg);
+}
+
+.bt-leg2 {
+    top: 60px;
+    right: 66px;
+    transform: rotate(80deg);
+}
+
+.middle1-body-leg {
+    background-color: black;
+    width: 75px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mb1-leg1 {
+    left: 20px;
+    transform: rotate(15deg);
+}
+
+ .mb1-leg2 {
+    right: 21px;
+    transform: rotate(-15deg);
+}
+
+
+.middle1-tip-leg {
+    background-color: black;
+    width: 55px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mt1-leg1 {
+    left: 130px;
+    bottom: 20px;
+    transform: rotate(25deg);
+}
+
+ .mt1-leg2 {
+    right: 131px;
+    bottom: 20px;
+    transform: rotate(-25deg);
+}
+
+.middle2-body-leg {
+    background-color: black;
+    width: 75px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mb2-leg1 {
+    left: 20px;
+    transform: rotate(165deg);
+}
+
+ .mb2-leg2 {
+    right: 21px;
+    transform: rotate(-165deg);
+}
+
+.middle2-tip-leg {
+    background-color: black;
+    width: 55px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mt2-leg1 {
+    left: 130px;
+    top: 20px;
+    transform: rotate(155deg);
+}
+
+ .mt2-leg2 {
+    right: 131px;
+    top: 20px;
+    transform: rotate(-155deg);
+}
+
+.front-body {
+    background-color: black;
+    width: 75px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.fb-leg1 {
+    left: 20px;
+    transform: rotate(-25deg);
+}
+
+ .fb-leg2 {
+    right: 21px;
+    transform: rotate(25deg);
+}
+
+.front-tip {
+    background-color: black;
+    width: 100px;
+    height: 8px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ft-leg1 {
+    left: 152px;
+    top: 65px;
+    transform: rotate(-85deg);
+}
+
+.ft-leg2 {
+    right: 153px;
+    top: 65px;
+    transform: rotate(85deg);
+}
