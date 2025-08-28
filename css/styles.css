@@ -40,13 +40,13 @@ header {
     overflow: scroll;
 }
 
-#div-container {
+.div-container {
     /* border: 2px solid red; */
     height: 50vh;
     display: flex;
 }
 
-#div-section {
+.div-section {
     /* border: 2px solid red; */
     width: 50vw;
     height: 100%;
@@ -55,12 +55,12 @@ header {
 
 
 @media screen and (max-width: 800px) {
-    #div-container {
+    .div-container {
         height: 100vh;
         flex-direction: column;
     }
 
-    #div-section {
+    .div-section {
         width: 100vw;
     }
 }
